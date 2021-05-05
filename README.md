@@ -1,0 +1,2 @@
+# matrix-input-from-user-in-python
+# Initialize matrix matrix = [] print("Enter the entries rowwise:")    # For user input for i in range(R):          # A for loop for row entries     a =[]     for j in range(C):      # A for loop for column entries          a.append(int(input()))     matrix.append(a)    # For printing the matrix for i in range(R):     for j in range(C):         print(matrix[i][j], end = " ")     print()         out put  : Enter the number of rows:2 Enter the number of columns:3 Enter the entries rowwise: 1 2 3 4 5 6  1 2 3  4 5 6 
